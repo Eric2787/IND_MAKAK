@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="azul_100">#2C4BFA</color>
+    <color name="azul_200">#2D8CFA</color>
+    <color name="azul_300">#2DCDFA</color>
+    <color name="azul_400">#502DFA</color>
+    <color name="azul_500">#667DFA</color>
+    <color name="morado_100">#932DFA</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+</resources>

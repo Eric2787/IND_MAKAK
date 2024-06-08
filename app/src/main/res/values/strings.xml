@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">IND MAKAK</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">IND MAKAK</string>
+    <string name="nav_header_subtitle">ericg7346@gmail.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <!-- BARRA DE OPCIONES -->
+    <string name="action_settings">Configuración</string>
+    <!-- PÁGINA PRINCIPAL / HOME FRAGMENT -->
+    <string name="Marca_C">Marca de tu coche: Volkswagen</string>
+    <string name="Modelo_C">Modelo de tu coche: Jetta</string>
+    <string name="Año_C">Año de tu coche: 2008</string>
+    <string name="btn_1">Lugares Disponibles</string>
+    <string name="Placas_C">Placas de tu coche: VMW-739</string>
+    <string name="btn_2">R e s e v a r</string>
+    <!-- MENÚ -->
+    <string name="menu_contact">Contacto</string>
+    <string name="menu_home">Inicio</string>
+    <string name="menu_gallery">Lugares</string>
+    <string name="menu_slideshow">Ayuda</string>
+    <!-- SEGUNDA PÁGINA / GALLERY FRAGMENT -->
+    <string name="lugar_d">Lugares</string>
+</resources>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/fragment_home"
+            android:icon="@mipmap/inicio"
+            android:title="@string/menu_home" />
+        <item
+            android:id="@+id/fragment_gallery"
+            android:icon="@mipmap/lugar"
+            android:title="@string/menu_gallery" />
+        <item
+            android:id="@+id/fragment_sideshow"
+            android:icon="@mipmap/ayuda"
+            android:title="@string/menu_slideshow" />
+        <item
+            android:id="@+id/contactFragment"
+            android:icon="@mipmap/contacto"
+            android:title="@string/menu_contact" />
+    </group>
+</menu>

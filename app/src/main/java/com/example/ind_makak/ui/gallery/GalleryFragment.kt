@@ -19,7 +19,6 @@ class GalleryFragment : Fragment() {
         savedInstanceState: Bundle?
     ): View {
         _binding = FragmentGalleryBinding.inflate(inflater, container, false)
-        binding.textGallery.text = "@string/menu_gallery"
         return binding.root
     }
 

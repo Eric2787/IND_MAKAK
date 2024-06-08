@@ -16,9 +16,9 @@
     <string name="btn_2">R e s e v a r</string>
     <!-- MENÚ -->
     <string name="menu_contact">Contacto</string>
-    <string name="menu_home">Inicio</string>
-    <string name="menu_gallery">Lugares</string>
+    <string name="menu_home">IND MAKAK</string>
+    <string name="menu_gallery">Lugares Disponibles</string>
     <string name="menu_slideshow">Ayuda</string>
     <!-- SEGUNDA PÁGINA / GALLERY FRAGMENT -->
-    <string name="lugar_d">Lugares</string>
+    <string name="Lugar_d"></string>
 </resources>

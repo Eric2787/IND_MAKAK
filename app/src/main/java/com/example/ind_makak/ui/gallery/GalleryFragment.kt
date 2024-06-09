@@ -21,9 +21,26 @@ class GalleryFragment : Fragment() {
         savedInstanceState: Bundle?
     ): View {
         _binding = FragmentGalleryBinding.inflate(inflater, container, false)
-        binding.button13.setOnClickListener {
+        binding.buttonLugar13.setOnClickListener {
             view: View -> view.findNavController().navigate(R.id.action_fragment_gallery_to_fragment_home)
         }
+
+        binding.buttonLugar1.setOnClickListener {
+            view: View -> view.findNavController().navigate(R.id.action_fragment_gallery_to_lugarA1)
+        }
+
+        binding.buttonLugar2.setOnClickListener {
+            view: View -> view.findNavController().navigate(R.id.action_fragment_gallery_to_lugarA2)
+        }
+
+        binding.buttonLugar3.setOnClickListener {
+            view: View -> view.findNavController().navigate(R.id.action_fragment_gallery_to_lugarA3)
+        }
+
+        binding.buttonLugar4.setOnClickListener {
+            view: View -> view.findNavController().navigate(R.id.action_fragment_gallery_to_lugarB1)
+        }
+
         return binding.root
     }
 

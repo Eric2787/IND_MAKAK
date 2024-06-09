@@ -35,4 +35,21 @@
     <string name="lugar_d3" translatable="false">D3</string>
     <string name="btn_l" translatable="false">Reservar</string>
     <string name="btn_atras">Regresar</string>
+    <!-- Lugar A1 -->
+    <string name="frag_lugar_a1">Lugar: A1</string>
+    <!-- Lugar A2-->
+    <string name="frag_lugar_a2">Lugar: A2 </string>
+    <!-- Lugar A3-->
+    <string name="frag_lugar_a3">Lugar: A3</string>
+    <!-- Lugar B1-->
+    <string name="frag_lugar_b1">Lugar: B1</string>
+    <!-- Fragmentos "Lugar" Hint-->
+    <string name="frag_lugar_glob_hint_nom">Nombre:</string>
+    <string name="frag_lugar_glob_hint_correo">Correo Electronico:</string>
+    <string name="frag_lugar_glob_hint_NoServPub">No. Servidor Publico:</string>
+    <!-- Fragmentos "Lugar" btn-->
+    <string name="frag_lugar_glob_btn_regis">Registrar</string>
+    <string name="frag_lugar_glob_btn_regre">Regresar</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
 </resources>

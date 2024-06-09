@@ -3,7 +3,7 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/mobile_navigation"
-    app:startDestination="@+id/fragment_home">
+    app:startDestination="@id/fragment_home">
 
     <fragment
         android:id="@+id/fragment_home"
@@ -12,30 +12,85 @@
         tools:layout="@layout/fragment_home" >
         <action
             android:id="@+id/action_fragment_home_to_fragment_gallery"
-            app:destination="@id/fragment_gallery"
+            app:destination="@id/navigation"
             app:popUpTo="@id/fragment_home"
             app:popUpToInclusive="true" />
     </fragment>
 
     <fragment
-        android:id="@+id/fragment_gallery"
-        android:name="com.example.ind_makak.ui.gallery.GalleryFragment"
-        android:label="@string/menu_gallery"
-        tools:layout="@layout/fragment_gallery" >
-        <action
-            android:id="@+id/action_fragment_gallery_to_fragment_home"
-            app:destination="@id/fragment_home"
-            app:popUpTo="@id/fragment_gallery" />
-    </fragment>
-
-    <fragment
-        android:id="@+id/fragment_sideshow"
-        android:name="com.example.ind_makak.ui.slideshow.SlideshowFragment"
-        android:label="@string/menu_slideshow"
-        tools:layout="@layout/fragment_slideshow" />
-    <fragment
         android:id="@+id/contactFragment"
         android:name="com.example.ind_makak.ui.contact.ContactFragment"
         android:label="@string/menu_contact"
         tools:layout="@layout/fragment_contact" />
+    <navigation android:id="@+id/navigation"
+        tools:ignore="InvalidNavigation"
+        app:startDestination="@id/fragment_gallery">
+        <fragment
+            android:id="@+id/fragment_gallery"
+            android:name="com.example.ind_makak.ui.gallery.GalleryFragment"
+            android:label="@string/menu_gallery"
+            tools:layout="@layout/fragment_gallery">
+            <action
+                android:id="@+id/action_fragment_gallery_to_fragment_home"
+                app:destination="@id/fragment_home"
+                app:popUpTo="@id/fragment_gallery" />
+            <action
+                android:id="@+id/action_fragment_gallery_to_lugarA1"
+                app:destination="@id/fragmentLugarA1"
+                app:popUpTo="@id/fragment_gallery" />
+            <action
+                android:id="@+id/action_fragment_gallery_to_lugarA2"
+                app:destination="@id/fragmentLugarA2"
+                app:popUpTo="@id/fragment_gallery" />
+            <action
+                android:id="@+id/action_fragment_gallery_to_lugarA3"
+                app:destination="@id/fragmentLugarA3"
+                app:popUpTo="@id/fragment_gallery" />
+            <action
+                android:id="@+id/action_fragment_gallery_to_lugarB1"
+                app:destination="@id/fragmentLugarB1"
+                app:popUpTo="@id/fragment_gallery" />
+        </fragment>
+        <fragment
+            android:id="@+id/fragmentLugarA1"
+            android:name="com.example.ind_makak.ui.reservas.FragmentLugarA1"
+            android:label=""
+            tools:layout="@layout/fragment_lugar_a1" >
+            <action
+                android:id="@+id/action_fragmentLugarA1_to_fragment_gallery"
+                app:destination="@id/fragment_gallery"
+                app:popUpTo="@id/fragmentLugarA1" />
+        </fragment>
+
+        <fragment
+            android:id="@+id/fragmentLugarA2"
+            android:name="com.example.ind_makak.ui.reservas.FragmentLugarA2"
+            android:label=""
+            tools:layout="@layout/fragment_lugar_a2" >
+            <action
+                android:id="@+id/action_fragmentLugarA2_to_fragment_gallery"
+                app:destination="@id/fragment_gallery"
+                app:popUpTo="@id/fragmentLugarA2" />
+        </fragment>
+        <fragment
+            android:id="@+id/fragmentLugarA3"
+            android:name="com.example.ind_makak.ui.reservas.FragmentLugarA3"
+            android:label=""
+            tools:layout="@layout/fragment_lugar_a3" >
+            <action
+                android:id="@+id/action_fragmentLugarA3_to_fragment_gallery"
+                app:destination="@id/fragment_gallery"
+                app:popUpTo="@id/fragmentLugarA3" />
+        </fragment>
+        <fragment
+            android:id="@+id/fragmentLugarB1"
+            android:name="com.example.ind_makak.ui.reservas.FragmentLugarB1"
+            android:label=""
+            tools:layout="@layout/fragment_lugar_b1" >
+            <action
+                android:id="@+id/action_fragmentLugarB1_to_fragment_gallery"
+                app:destination="@id/fragment_gallery"
+                app:popUpTo="@id/fragmentLugarB1" />
+        </fragment>
+    </navigation>
 </navigation>

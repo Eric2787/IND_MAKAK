@@ -21,7 +21,12 @@
         android:id="@+id/fragment_gallery"
         android:name="com.example.ind_makak.ui.gallery.GalleryFragment"
         android:label="@string/menu_gallery"
-        tools:layout="@layout/fragment_gallery" />
+        tools:layout="@layout/fragment_gallery" >
+        <action
+            android:id="@+id/action_fragment_gallery_to_fragment_home"
+            app:destination="@id/fragment_home"
+            app:popUpTo="@id/fragment_gallery" />
+    </fragment>
 
     <fragment
         android:id="@+id/fragment_sideshow"

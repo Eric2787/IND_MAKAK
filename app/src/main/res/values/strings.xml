@@ -1,9 +1,9 @@
 <resources>
-    <string name="app_name">IND MAKAK</string>
+    <string name="app_name" translatable="false">IND MAKAK</string>
     <string name="navigation_drawer_open">Open navigation drawer</string>
     <string name="navigation_drawer_close">Close navigation drawer</string>
-    <string name="nav_header_title">IND MAKAK</string>
-    <string name="nav_header_subtitle">ericg7346@gmail.com</string>
+    <string name="nav_header_title" translatable="false">IND MAKAK</string>
+    <string name="nav_header_subtitle" translatable="false">ericg7346@gmail.com</string>
     <string name="nav_header_desc">Navigation header</string>
     <!-- BARRA DE OPCIONES -->
     <string name="action_settings">Configuración</string>
@@ -16,9 +16,23 @@
     <string name="btn_2">R e s e v a r</string>
     <!-- MENÚ -->
     <string name="menu_contact">Contacto</string>
-    <string name="menu_home">IND MAKAK</string>
+    <string name="menu_home" translatable="false">IND MAKAK</string>
     <string name="menu_gallery">Lugares Disponibles</string>
     <string name="menu_slideshow">Ayuda</string>
     <!-- SEGUNDA PÁGINA / GALLERY FRAGMENT -->
-    <string name="Lugar_d"></string>
+    <string name="Lugar_d">Lista de lugares:</string>
+    <string name="lugar_a1" translatable="false">A1</string>
+    <string name="lugar_a2" translatable="false">A2</string>
+    <string name="lugar_a3" translatable="false">A3</string>
+    <string name="lugar_b1" translatable="false">B1</string>
+    <string name="lugar_b2" translatable="false">B2</string>
+    <string name="lugar_b3" translatable="false">B3</string>
+    <string name="lugar_c1" translatable="false">C1</string>
+    <string name="lugar_c2" translatable="false">C2</string>
+    <string name="lugar_c3" translatable="false">C3</string>
+    <string name="lugar_d1" translatable="false">D1</string>
+    <string name="lugar_d2" translatable="false">D2</string>
+    <string name="lugar_d3" translatable="false">D3</string>
+    <string name="btn_l" translatable="false">Reservar</string>
+    <string name="btn_atras">Regresar</string>
 </resources>

@@ -1,4 +1,4 @@
-package com.example.ind_makak.ui.ListaLugares
+package com.example.ind_makak.ui.listalugares
 
 import android.os.Bundle
 import android.view.LayoutInflater

@@ -5,7 +5,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".ui.Lugares.FragmentLugarC1">
+    tools:context=".ui.lugares.FragmentLugarC1">
 
     <TextView
         android:id="@+id/frag_text_lugar_c1"

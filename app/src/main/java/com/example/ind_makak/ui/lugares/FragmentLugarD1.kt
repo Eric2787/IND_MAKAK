@@ -1,4 +1,4 @@
-package com.example.ind_makak.ui.Lugares
+package com.example.ind_makak.ui.lugares
 
 import android.os.Bundle
 import androidx.fragment.app.Fragment
@@ -7,11 +7,10 @@ import android.view.View
 import android.view.ViewGroup
 import androidx.navigation.findNavController
 import com.example.ind_makak.R
-import com.example.ind_makak.databinding.FragmentLugarB1Binding
+import com.example.ind_makak.databinding.FragmentLugarD1Binding
 
-class FragmentLugarB1 : Fragment() {
-
-    private var _binding: FragmentLugarB1Binding? = null
+class FragmentLugarD1 : Fragment() {
+    private var _binding: FragmentLugarD1Binding? = null
     private val binding get() = _binding!!
 
     override fun onCreateView(
@@ -19,9 +18,13 @@ class FragmentLugarB1 : Fragment() {
         container: ViewGroup?,
         savedInstanceState: Bundle?
     ): View {
-       _binding = FragmentLugarB1Binding.inflate(inflater, container, false)
-        binding.buttonFragLugarB1Regre.setOnClickListener {
-            view: View -> view.findNavController().navigate(R.id.action_fragmentLugarB1_to_fragment_gallery)
+        _binding = FragmentLugarD1Binding.inflate(inflater, container, false)
+        binding.buttonFragLugarD1Regre.setOnClickListener {
+            view: View -> view.findNavController().navigate(R.id.action_fragmentLugarD1_to_fragment_gallery)
+        }
+
+        binding.buttonFragLugarD1Regis.setOnClickListener {
+
         }
 
         return binding.root

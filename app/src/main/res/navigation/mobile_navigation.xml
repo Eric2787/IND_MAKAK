@@ -28,7 +28,7 @@
         app:startDestination="@id/fragment_lista_lugares_nav">
         <fragment
             android:id="@+id/fragmentLugarA1"
-            android:name="com.example.ind_makak.ui.Lugares.FragmentLugarA1"
+            android:name="com.example.ind_makak.ui.lugares.FragmentLugarA1"
             android:label=""
             tools:layout="@layout/fragment_lugar_a1" >
             <action
@@ -39,7 +39,7 @@
 
         <fragment
             android:id="@+id/fragmentLugarA2"
-            android:name="com.example.ind_makak.ui.Lugares.FragmentLugarA2"
+            android:name="com.example.ind_makak.ui.lugares.FragmentLugarA2"
             android:label=""
             tools:layout="@layout/fragment_lugar_a2" >
             <action
@@ -49,7 +49,7 @@
         </fragment>
         <fragment
             android:id="@+id/fragmentLugarA3"
-            android:name="com.example.ind_makak.ui.Lugares.FragmentLugarA3"
+            android:name="com.example.ind_makak.ui.lugares.FragmentLugarA3"
             android:label=""
             tools:layout="@layout/fragment_lugar_a3" >
             <action
@@ -59,7 +59,7 @@
         </fragment>
         <fragment
             android:id="@+id/fragmentLugarB1"
-            android:name="com.example.ind_makak.ui.Lugares.FragmentLugarB1"
+            android:name="com.example.ind_makak.ui.lugares.FragmentLugarB1"
             android:label=""
             tools:layout="@layout/fragment_lugar_b1" >
             <action
@@ -69,7 +69,7 @@
         </fragment>
         <fragment
             android:id="@+id/fragmentLugarB2"
-            android:name="com.example.ind_makak.ui.Lugares.FragmentLugarB2"
+            android:name="com.example.ind_makak.ui.lugares.FragmentLugarB2"
             android:label=""
             tools:layout="@layout/fragment_lugar_b2" >
             <action
@@ -79,7 +79,7 @@
         </fragment>
         <fragment
             android:id="@+id/fragmentLugarB3"
-            android:name="com.example.ind_makak.ui.Lugares.FragmentLugarB3"
+            android:name="com.example.ind_makak.ui.lugares.FragmentLugarB3"
             android:label=""
             tools:layout="@layout/fragment_lugar_b3" >
             <action
@@ -89,7 +89,7 @@
         </fragment>
         <fragment
             android:id="@+id/fragmentLugarC1"
-            android:name="com.example.ind_makak.ui.Lugares.FragmentLugarC1"
+            android:name="com.example.ind_makak.ui.lugares.FragmentLugarC1"
             tools:layout="@layout/fragment_lugar_c1">
             <action
                 android:id="@+id/action_fragmentLugarC1_to_fragment_gallery"
@@ -98,7 +98,7 @@
         </fragment>
         <fragment
             android:id="@+id/fragmentLugarC2"
-            android:name="com.example.ind_makak.ui.Lugares.FragmentLugarC2"
+            android:name="com.example.ind_makak.ui.lugares.FragmentLugarC2"
             tools:layout="@layout/fragment_lugar_c2">
             <action
                 android:id="@+id/action_fragmentLugarC2_to_fragment_gallery"
@@ -107,7 +107,7 @@
         </fragment>
         <fragment
             android:id="@+id/fragmentLugarC3"
-            android:name="com.example.ind_makak.ui.Lugares.FragmentLugarC3"
+            android:name="com.example.ind_makak.ui.lugares.FragmentLugarC3"
             tools:layout="@layout/fragment_lugar_c3">
             <action
                 android:id="@+id/action_fragmentLugarC3_to_fragment_gallery"
@@ -116,7 +116,7 @@
         </fragment>
         <fragment
             android:id="@+id/fragmentLugarD1"
-            android:name="com.example.ind_makak.ui.Lugares.FragmentLugarD1"
+            android:name="com.example.ind_makak.ui.lugares.FragmentLugarD1"
             tools:layout="@layout/fragment_lugar_d1">
             <action
                 android:id="@+id/action_fragmentLugarD1_to_fragment_gallery"
@@ -125,7 +125,7 @@
         </fragment>
         <fragment
             android:id="@+id/fragmentLugarD2"
-            android:name="com.example.ind_makak.ui.Lugares.FragmentLugarD2"
+            android:name="com.example.ind_makak.ui.lugares.FragmentLugarD2"
             tools:layout="@layout/fragment_lugar_d2">
             <action
                 android:id="@+id/action_fragmentLugarD2_to_fragment_gallery"
@@ -134,7 +134,7 @@
         </fragment>
         <fragment
             android:id="@+id/fragmentLugarD3"
-            android:name="com.example.ind_makak.ui.Lugares.FragmentLugarD3"
+            android:name="com.example.ind_makak.ui.lugares.FragmentLugarD3"
             android:label=""
             tools:layout="@layout/fragment_lugar_d3" >
             <action
@@ -144,7 +144,7 @@
         </fragment>
         <fragment
             android:id="@+id/fragment_lista_lugares_nav"
-            android:name="com.example.ind_makak.ui.ListaLugares.FragmentListaLugares"
+            android:name="com.example.ind_makak.ui.listalugares.FragmentListaLugares"
             android:label="@string/menu_gallery"
             tools:layout="@layout/fragment_lista_lugares">
             <action

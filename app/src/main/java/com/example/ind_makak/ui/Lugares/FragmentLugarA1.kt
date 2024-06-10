@@ -1,4 +1,4 @@
-package com.example.ind_makak.ui.reservas
+package com.example.ind_makak.ui.Lugares
 
 import android.os.Bundle
 import androidx.fragment.app.Fragment
@@ -7,11 +7,11 @@ import android.view.View
 import android.view.ViewGroup
 import androidx.navigation.findNavController
 import com.example.ind_makak.R
-import com.example.ind_makak.databinding.FragmentLugarA2Binding
+import com.example.ind_makak.databinding.FragmentLugarA1Binding
 
-class FragmentLugarA2 : Fragment() {
+class FragmentLugarA1 : Fragment() {
 
-    private var _binding: FragmentLugarA2Binding? = null
+    private var _binding: FragmentLugarA1Binding? = null
 
     private val binding get() = _binding!!
 
@@ -20,16 +20,17 @@ class FragmentLugarA2 : Fragment() {
         container: ViewGroup?,
         savedInstanceState: Bundle?
     ): View {
-        _binding = FragmentLugarA2Binding.inflate(inflater, container, false)
-        binding.buttonFragLugarA2Regis.setOnClickListener {
+        _binding = FragmentLugarA1Binding.inflate(inflater, container, false)
+        binding.buttonFragLugarA1Regis.setOnClickListener {
 
         }
 
-        binding.buttonFragLugarA2Regre.setOnClickListener {
-            view: View -> view.findNavController().navigate(R.id.action_fragmentLugarA2_to_fragment_gallery)
+        binding.buttonFragLugarA1Regre.setOnClickListener {
+            view: View -> view.findNavController().navigate(R.id.action_fragmentLugarA1_to_fragment_gallery)
         }
 
         return binding.root
+
     }
     override fun onDestroyView() {
         super.onDestroyView()

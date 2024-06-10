@@ -1,4 +1,4 @@
-package com.example.ind_makak.ui.reservas
+package com.example.ind_makak.ui.Lugares
 
 import android.os.Bundle
 import androidx.fragment.app.Fragment

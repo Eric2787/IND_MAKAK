@@ -7,11 +7,11 @@ import android.view.ViewGroup
 import androidx.fragment.app.Fragment
 import androidx.navigation.findNavController
 import com.example.ind_makak.R
-import com.example.ind_makak.databinding.FragmentHomeBinding
+import com.example.ind_makak.databinding.FragmentInicioBinding
 
-class HomeFragment : Fragment() {
+class FragmentInicio : Fragment() {
 
-    private var _binding: FragmentHomeBinding? = null
+    private var _binding: FragmentInicioBinding? = null
 
     private val binding get() = _binding!!
 
@@ -21,7 +21,7 @@ class HomeFragment : Fragment() {
         savedInstanceState: Bundle?
     ): View {
 
-        _binding  = FragmentHomeBinding.inflate(inflater, container, false)
+        _binding  = FragmentInicioBinding.inflate(inflater, container, false)
         binding.buttonHome1.setOnClickListener {
                 view: View -> view.findNavController().navigate(R.id.action_fragment_home_to_fragment_gallery)
         }

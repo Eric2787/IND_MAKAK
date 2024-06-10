@@ -1,4 +1,4 @@
-package com.example.ind_makak.ui.gallery
+package com.example.ind_makak.ui.ListaLugares
 
 import android.os.Bundle
 import android.view.LayoutInflater
@@ -7,11 +7,11 @@ import android.view.ViewGroup
 import androidx.fragment.app.Fragment
 import androidx.navigation.findNavController
 import com.example.ind_makak.R
-import com.example.ind_makak.databinding.FragmentGalleryBinding
+import com.example.ind_makak.databinding.FragmentListaLugaresBinding
 
-class GalleryFragment : Fragment() {
+class FragmentListaLugares : Fragment() {
 
-    private var _binding: FragmentGalleryBinding? = null
+    private var _binding: FragmentListaLugaresBinding? = null
 
     private val binding get() = _binding!!
 
@@ -20,9 +20,9 @@ class GalleryFragment : Fragment() {
         container: ViewGroup?,
         savedInstanceState: Bundle?
     ): View {
-        _binding = FragmentGalleryBinding.inflate(inflater, container, false)
+        _binding = FragmentListaLugaresBinding.inflate(inflater, container, false)
         binding.buttonLugar13.setOnClickListener {
-            view: View -> view.findNavController().navigate(R.id.action_fragment_gallery_to_fragment_home)
+            view: View -> view.findNavController().navigate(R.id.action_fragment_lista_lugares_nav_to_fragment_inicio)
         }
 
         binding.buttonLugar1.setOnClickListener {

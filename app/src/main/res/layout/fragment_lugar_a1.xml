@@ -24,7 +24,7 @@
 
     <com.google.android.material.textfield.TextInputLayout
         android:id="@+id/input_text_frag_a1_Nom"
-        android:layout_width="391dp"
+        android:layout_width="0dp"
         android:layout_height="wrap_content"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -59,11 +59,11 @@
 
     <EditText
         android:id="@+id/input_numb_frag_a1_NoServPub"
-        android:layout_width="388dp"
+        android:layout_width="0dp"
         android:layout_height="56dp"
+        android:autofillHints="number"
         android:ems="10"
         android:hint="@string/frag_lugar_glob_hint_NoServPub"
-        android:autofillHints="number"
         android:inputType="number"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"

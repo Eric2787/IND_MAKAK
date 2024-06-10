@@ -41,6 +41,37 @@ class GalleryFragment : Fragment() {
             view: View -> view.findNavController().navigate(R.id.action_fragment_gallery_to_lugarB1)
         }
 
+        binding.buttonLugar5.setOnClickListener {
+            view: View -> view.findNavController().navigate(R.id.action_fragment_gallery_to_lugarB2)
+        }
+
+        binding.buttonLugar6.setOnClickListener {
+            view: View -> view.findNavController().navigate(R.id.action_fragment_gallery_to_lugarB3)
+        }
+
+        binding.buttonLugar7.setOnClickListener {
+            view: View -> view.findNavController().navigate(R.id.action_fragment_gallery_to_lugarC1)
+        }
+
+        binding.buttonLugar8.setOnClickListener {
+            view: View -> view.findNavController().navigate(R.id.action_fragment_gallery_to_lugarC2)
+        }
+
+        binding.buttonLugar9.setOnClickListener {
+            view: View -> view.findNavController().navigate(R.id.action_fragment_gallery_to_lugarC3)
+        }
+
+        binding.buttonLugar10.setOnClickListener {
+            view: View -> view.findNavController().navigate(R.id.action_fragment_gallery_to_lugarD1)
+        }
+
+        binding.buttonLugar11.setOnClickListener {
+            view: View -> view.findNavController().navigate(R.id.action_fragment_gallery_to_lugarD2)
+        }
+
+        binding.buttonLugar12.setOnClickListener {
+            view: View -> view.findNavController().navigate(R.id.action_fragment_gallery_to_lugarD3)
+        }
         return binding.root
     }
 

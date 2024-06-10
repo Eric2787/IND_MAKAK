@@ -50,6 +50,38 @@
                 android:id="@+id/action_fragment_gallery_to_lugarB1"
                 app:destination="@id/fragmentLugarB1"
                 app:popUpTo="@id/fragment_gallery" />
+            <action
+                android:id="@+id/action_fragment_gallery_to_lugarB2"
+                app:destination="@id/fragmentLugarB2"
+                app:popUpTo="@id/fragment_gallery" />
+            <action
+                android:id="@+id/action_fragment_gallery_to_lugarB3"
+                app:destination="@id/fragmentLugarB3"
+                app:popUpTo="@id/fragment_gallery" />
+            <action
+                android:id="@+id/action_fragment_gallery_to_lugarC1"
+                app:destination="@id/fragmentLugarC1"
+                app:popUpTo="@id/fragment_gallery" />
+            <action
+                android:id="@+id/action_fragment_gallery_to_lugarC2"
+                app:destination="@id/fragmentLugarC2"
+                app:popUpTo="@id/fragment_gallery" />
+            <action
+                android:id="@+id/action_fragment_gallery_to_lugarC3"
+                app:destination="@id/fragmentLugarC3"
+                app:popUpTo="@id/fragment_gallery" />
+            <action
+                android:id="@+id/action_fragment_gallery_to_lugarD1"
+                app:destination="@id/fragmentLugarD1"
+                app:popUpTo="@id/fragment_gallery" />
+            <action
+                android:id="@+id/action_fragment_gallery_to_lugarD2"
+                app:destination="@id/fragmentLugarD2"
+                app:popUpTo="@id/fragment_gallery" />
+            <action
+                android:id="@+id/action_fragment_gallery_to_lugarD3"
+                app:destination="@id/fragmentLugarD3"
+                app:popUpTo="@id/fragment_gallery" />
         </fragment>
         <fragment
             android:id="@+id/fragmentLugarA1"
@@ -91,6 +123,81 @@
                 android:id="@+id/action_fragmentLugarB1_to_fragment_gallery"
                 app:destination="@id/fragment_gallery"
                 app:popUpTo="@id/fragmentLugarB1" />
+        </fragment>
+        <fragment
+            android:id="@+id/fragmentLugarB2"
+            android:name="com.example.ind_makak.ui.reservas.FragmentLugarB2"
+            android:label=""
+            tools:layout="@layout/fragment_lugar_b2" >
+            <action
+                android:id="@+id/action_fragmentLugarB2_to_fragment_gallery"
+                app:destination="@id/fragment_gallery"
+                app:popUpTo="@id/fragmentLugarB2" />
+        </fragment>
+        <fragment
+            android:id="@+id/fragmentLugarB3"
+            android:name="com.example.ind_makak.ui.reservas.FragmentLugarB3"
+            android:label=""
+            tools:layout="@layout/fragment_lugar_b3" >
+            <action
+                android:id="@+id/action_fragmentLugarB3_to_fragment_gallery"
+                app:destination="@id/fragment_gallery"
+                app:popUpTo="@id/fragmentLugarB3" />
+        </fragment>
+        <fragment
+            android:id="@+id/fragmentLugarC1"
+            android:name="com.example.ind_makak.ui.reservas.FragmentLugarC1"
+            tools:layout="@layout/fragment_lugar_c1">
+            <action
+                android:id="@+id/action_fragmentLugarC1_to_fragment_gallery"
+                app:destination="@id/fragment_gallery"
+                app:popUpTo="@id/fragmentLugarC1" />
+        </fragment>
+        <fragment
+            android:id="@+id/fragmentLugarC2"
+            android:name="com.example.ind_makak.ui.reservas.FragmentLugarC2"
+            tools:layout="@layout/fragment_lugar_c2">
+            <action
+                android:id="@+id/action_fragmentLugarC2_to_fragment_gallery"
+                app:destination="@id/fragment_gallery"
+                app:popUpTo="@id/fragmentLugarC2" />
+        </fragment>
+        <fragment
+            android:id="@+id/fragmentLugarC3"
+            android:name="com.example.ind_makak.ui.reservas.FragmentLugarC3"
+            tools:layout="@layout/fragment_lugar_c3">
+            <action
+                android:id="@+id/action_fragmentLugarC3_to_fragment_gallery"
+                app:destination="@id/fragment_gallery"
+                app:popUpTo="@id/fragmentLugarC3" />
+        </fragment>
+        <fragment
+            android:id="@+id/fragmentLugarD1"
+            android:name="com.example.ind_makak.ui.reservas.FragmentLugarD1"
+            tools:layout="@layout/fragment_lugar_d1">
+            <action
+                android:id="@+id/action_fragmentLugarD1_to_fragment_gallery"
+                app:destination="@id/fragment_gallery"
+                app:popUpTo="@id/fragmentLugarD1" />
+        </fragment>
+        <fragment
+            android:id="@+id/fragmentLugarD2"
+            android:name="com.example.ind_makak.ui.reservas.FragmentLugarD2"
+            tools:layout="@layout/fragment_lugar_d2">
+            <action
+                android:id="@+id/action_fragmentLugarD2_to_fragment_gallery"
+                app:destination="@id/fragment_gallery"
+                app:popUpTo="@id/fragmentLugarD2" />
+        </fragment>
+        <fragment
+            android:id="@+id/fragmentLugarD3"
+            android:name="com.example.ind_makak.ui.reservas.FragmentLugarD3"
+            android:label="fragment_lugar_d3"
+            tools:layout="@layout/fragment_lugar_d3" >
+            <action
+                android:id="@+id/action_fragmentLugarD3_to_fragment_gallery"
+                app:destination="@id/fragment_gallery"
+                app:popUpTo="@id/fragmentLugarD3" />
         </fragment>
     </navigation>
 </navigation>

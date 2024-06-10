@@ -43,6 +43,22 @@
     <string name="frag_lugar_a3">Lugar: A3</string>
     <!-- Lugar B1-->
     <string name="frag_lugar_b1">Lugar: B1</string>
+    <!-- Lugar B2-->
+    <string name="frag_lugar_b2">Lugar: B2</string>
+    <!-- Lugar B3 -->
+    <string name="frag_lugar_b3">Lugar: B3</string>
+    <!-- Lugar C1 -->
+    <string name="frag_lugar_c1">Lugar: C1</string>
+    <!-- Lugar C2 -->
+    <string name="frag_lugar_c2">Lugar: C2</string>
+    <!-- Lugar C3 -->
+    <string name="frag_lugar_c3">Lugar: C3</string>
+    <!-- Lugar D1-->
+    <string name="frag_lugar_d1">Lugar: D1</string>
+    <!-- Lugar D1-->
+    <string name="frag_lugar_d2">Lugar: D2</string>
+    <!-- Lugar D1-->
+    <string name="frag_lugar_d3">Lugar: D3</string>
     <!-- Fragmentos "Lugar" Hint-->
     <string name="frag_lugar_glob_hint_nom">Nombre:</string>
     <string name="frag_lugar_glob_hint_correo">Correo Electronico:</string>

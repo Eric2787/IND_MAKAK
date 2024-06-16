@@ -204,6 +204,6 @@
     <fragment
         android:id="@+id/fragment_ayuda"
         android:name="com.example.ind_makak.ui.slideshow.FragmentAyuda"
-        android:label="fragment_ayuda"
+        android:label="@string/menu_slideshow"
         tools:layout="@layout/fragment_ayuda" />
 </navigation>

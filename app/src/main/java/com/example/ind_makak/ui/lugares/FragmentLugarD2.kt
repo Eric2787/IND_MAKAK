@@ -5,9 +5,12 @@ import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
+import android.widget.Toast
+import androidx.lifecycle.lifecycleScope
 import androidx.navigation.findNavController
 import com.example.ind_makak.R
 import com.example.ind_makak.databinding.FragmentLugarD2Binding
+import kotlinx.coroutines.launch
 
 class FragmentLugarD2 : Fragment() {
     private var _binding: FragmentLugarD2Binding? = null
@@ -21,8 +24,20 @@ class FragmentLugarD2 : Fragment() {
             view: View -> view.findNavController().navigate(R.id.action_fragmentLugarD2_to_fragment_gallery)
         }
 
-        binding.buttonFragLugarD2Regis.setOnClickListener {
-
+        binding.buttonFragLugarD2Regis.setOnClickListener{
+            lifecycleScope.launch {
+                try {
+                    val nombre = binding.inputTextEditFragD2Nom.text.toString()
+                    val correo = binding.inputTextEditFragD2Correo.text.toString()
+                    val noServPub = binding.inputNumbFragD2NoServPub.text.toString()
+                    val response = ApiService.getInstance().postRegistro(nombre, correo, noServPub)
+                    if (response.isSuccessful) {
+                        Toast.makeText(activity, "Su registro ha sido exitoso", Toast.LENGTH_LONG).show()
+                    }
+                } catch (_: Exception) {
+                    Toast.makeText(activity, "Error al registrar", Toast.LENGTH_LONG).show()
+                }
+            }
         }
 
         return binding.root

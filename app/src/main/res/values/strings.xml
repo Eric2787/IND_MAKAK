@@ -68,4 +68,7 @@
     <string name="frag_lugar_glob_btn_regre">Regresar</string>
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
+    <!-- Fragmento Ayuda-->
+    <string name="textAyuda">Ayuda</string>
+    <string name="obtenerAyuda">Obtener Ayuda</string>
 </resources>

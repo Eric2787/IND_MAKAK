@@ -25,6 +25,9 @@ class FragmentInicio : Fragment() {
         binding.buttonHome1.setOnClickListener {
                 view: View -> view.findNavController().navigate(R.id.action_fragment_home_to_fragment_gallery)
         }
+        binding.buttonHome2.setOnClickListener {
+                view: View -> view.findNavController().navigate(R.id.action_fragment_home_to_fragment_gallery)
+        }
 
         return binding.root
     }

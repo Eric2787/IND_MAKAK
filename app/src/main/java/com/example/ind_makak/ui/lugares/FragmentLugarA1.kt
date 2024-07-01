@@ -65,7 +65,7 @@ interface ApiService{
         private var instance: ApiService ? = null
         fun getInstance(): ApiService = instance ?: crearInstancia()
         private fun crearInstancia(): ApiService = Retrofit.Builder()
-            .baseUrl("http://rabano.ddns.net:7979/api.php/")
+            .baseUrl("http://chocolateconleche.ddns.net:81/api.php/")
             .addConverterFactory(GsonConverterFactory.create())
             .client(OkHttpClient.Builder().build())
             .build()

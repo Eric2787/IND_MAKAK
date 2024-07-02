@@ -12,7 +12,7 @@
     <string name="Modelo_C">Modelo de tu coche: Jetta</string>
     <string name="Año_C">Año de tu coche: 2008</string>
     <string name="btn_1">Lugares Disponibles</string>
-    <string name="Placas_C">Placas de tu coche: VMW-739</string>
+    <string name="Placas_C">Placas de tu coche: XXX-000</string>
     <string name="btn_2">R e s e v a r</string>
     <!-- MENÚ -->
     <string name="menu_contact">Contacto</string>
@@ -66,8 +66,6 @@
     <!-- Fragmentos "Lugar" btn-->
     <string name="frag_lugar_glob_btn_regis">Registrar</string>
     <string name="frag_lugar_glob_btn_regre">Regresar</string>
-    <!-- TODO: Remove or change this placeholder text -->
-    <string name="hello_blank_fragment">Hello blank fragment</string>
     <!-- Fragmento Ayuda-->
     <string name="textAyuda">Ayuda</string>
     <string name="obtenerAyuda">Obtener Ayuda</string>
